@@ -1,0 +1,20 @@
+# Gradle wrapper files (DO NOT DELETE)
+gradle/wrapper/
+gradlew
+gradle-8.12.1-bin.zip
+
+# Ignore Android SDK and build outputs
+local.properties
+.gradle
+*.iml
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.apks
+*.aab
+*.swp
+*.swo
+*~
