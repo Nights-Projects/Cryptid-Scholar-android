@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cryptid Scholar</string>
+
+    <!-- Navigation -->
+    <string name="nav_cryptids">Cryptids</string>
+    <string name="nav_stats">Stats</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search cryptids...</string>
+    <string name="search_hint_no_results">No cryptids found</string>
+
+    <!-- Filter chips -->
+    <string name="chip_all">All</string>
+    <string name="chip_aquatic">Aquatic</string>
+    <string name="chip_terrestrial">Terrestrial</string>
+    <string name="chip_flying">Flying</string>
+
+    <!-- Item layout -->
+    <string name="cryptid_image">Cryptid image</string>
+    <string name="see_details">See details</string>
+
+    <!-- Detail screen -->
+    <string name="back">Go back</string>
+    <string name="error_loading">Error loading cryptid</string>
+    <string name="no_other_names">No other known names</string>
+    <string name="no_description">No description available</string>
+    <string name="no_fact">No fun facts available</string>
+    <string name="no_tips">No spotting tips available</string>
+    <string name="source">Source</string>
+
+    <!-- Stats -->
+    <string name="stats_format">%1$d cryptids • %2$d Aquatic • %3$d Terrestrial • %4$d Flying</string>
+    <string name="stats_loading">Loading stats...</string>
+
+    <!-- Errors -->
+    <string name="network_error">Network error: %s</string>
+    <string name="load_error">Failed to load data</string>
+    <string name="empty_state">No cryptids found.\nPull to refresh or try different filters.</string>
+
+    <!-- Detail screen empty state -->
+    <string name="detail_empty">Cannot load cryptid details</string>
+</resources>

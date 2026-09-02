@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#140028"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/cryptidImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/cryptid_image"
+        android:background="#0A001A"
+        android:layout_marginEnd="12dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cryptidName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F1C40F"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/cryptidType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#625FA6"
+            android:textSize="13sp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/cryptidCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#625FA6"
+            android:textSize="12sp"
+            android:layout_marginTop="1dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_chevron_right"
+        android:contentDescription="@string/see_details"
+        android:layout_gravity="center_vertical"
+        android:tint="#625FA6"/>
+
+</LinearLayout>
